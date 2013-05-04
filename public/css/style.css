@@ -1,0 +1,21 @@
+/* Global
+------------------------------------------------*/
+
+body{
+  border-top: 10px solid #CC2525;
+}
+
+/* Header
+------------------------------------------------*/
+
+.row .name h1{
+  margin-bottom: 5px;
+}
+
+/* Center Thumbnails */
+.thumbnails{ text-align: center; }
+.thumbnails > li{
+  display: inline-block;
+  *display: inline;
+  float: none;
+}

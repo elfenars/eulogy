@@ -1,0 +1,92 @@
+.container
+  %hr
+  .header
+    .image.row
+      .pagination-centered
+        %img{ src: "img/simpson.png", height: "100", width: "100", :alt => "me", class: "img-circle img-polaroid" }
+
+    .info.row
+      .name
+        %h1.text-center Feña Agar
+
+      .tagline
+        %p.text-center.muted Dev, SysAdmin & #{@rand_tagline}.
+
+    .social.row
+      .ul.thumbnails
+        %li.facebook
+          %a{ href: "http://www.facebook.com/ferliagno"}
+            %img{ src: "/img/facebook.png"}
+        %li.twitter
+          %a{ href: "http://www.twitter.com/elfenars"}
+            %img{ src: "/img/twitter.png"}
+        %li.linkedin
+          %a{ href: "http://www.linkedin.com/in/ferliagno/en"}
+            %img{ src: "/img/linkedin.png"}
+        %li.skype
+          %a{ href: "skype:ferliagno" }
+            %img{ src: "/img/skype.png"}
+        %li.gmail
+          %a{ href: "mailto:ferliagno@gmail.com" }
+            %img{ src: "/img/gmail.png"}
+  %hr
+
+  .content
+    .about-me.lead
+      %p.text-center #{@rand_lead}
+
+  %hr
+
+  .row
+    .tech-stuff.span6
+      %h3 You'd probably want to know i know this...
+      .first.row
+        .langs.span3
+          %h5 Code Stuff:
+          %ul
+            %li
+              Ruby
+              %ul
+                %li Pure as it comes
+                %li Ruby on Rails
+                %li Sinatra
+            %li PHP
+            %li MySQL
+            %li jQuery
+
+        .servers.span3
+          %h5 Systems Stuff:
+          %ul
+            %li OSX
+            %li
+              Linux
+              %ul
+                %li Debian
+                %li Centos
+                %li Ubuntu
+                %li RedHat
+            %li
+              Windows
+              %ul
+                %li Windows Server 2003
+                %li Windows Server 2008
+                %li Windows 7
+                %li Windows 8
+
+      .second.row
+        .platforms.span3
+          %h5 Platforms:
+          %ul
+            %li Salesforce
+            %li Zendesk
+            %li Wordpress
+            %li Google Apps
+
+    .past-work.span6
+      %h3 and that i have worked here...
+      %ul
+        %li Freelance
+        %li Qaribu.com
+        %li Cumplo.cl
+        %li Groupon LatAm
+        %li Adexus
