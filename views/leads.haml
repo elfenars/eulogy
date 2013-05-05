@@ -1,1 +1,28 @@
-%p.leads.lead.text-center
+.leads-inner
+  %p.lead.text-center I love what i do and i get paid to do it :D.
+
+:javascript
+  var $target;
+  var loadContentIndex = 0;
+  var randomStuff = [
+                "I love what i do and i get paid to do it :D.",
+                "I code for a living :D.",
+                "Sometimes i see real life in code, just like in The Matrix.",
+                "Did you know coders are the best lovers?<br> ...and i'm one so... love me.",
+                "I like to think of myself as a Hi-Tech Hippie."
+              ];
+
+
+  $(function() {
+      $target = $('p.lead.text-center');
+      loadContent();
+      window.setInterval(loadContent, 10000);
+  });
+
+  function loadContent() {
+      $target.fadeOut(function() {
+        var str = randomStuff[Math.floor((Math.random()*randomStuff.length)+1)];
+        $target.html(str);
+        $target.fadeIn();
+      });
+  }

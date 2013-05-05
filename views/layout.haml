@@ -4,15 +4,19 @@
     %meta{ charset: "utf-8" }
     %meta{ name: "description", content: "" }
     %meta{ name: "author", content: "" }
+
+    / CSS
     %link{ rel: "stylesheet", href: "/css/bootstrap.min.css"}
     %link{ rel: "stylesheet", href: "/css/bootstrap-responsive.min.css"}
     %link{ rel: "stylesheet", href: "/css/style.css"}
+
+    /JS
+    %script{ rel: "javascript", src: "js/jquery-1.9.1.min.js"}
+    %script{ rel: "javascript", src: "js/bootstrap.min.js"}
+    %script{ rel: "javascript", src: "js/scripts.js"}
+
     %title Feña Agar
 
 
   %body
     = yield
-
-  %script{ rel: "javascript", src: "js/jquery-1.9.1.min.js"}
-  %script{ rel: "javascript", src: "js/bootstrap.min.js"}
-  %script{ rel: "javascript", src: "js/scripts.min.js"}

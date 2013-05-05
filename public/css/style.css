@@ -26,3 +26,14 @@ body{
 .lead{
   margin-bottom: 0;
 }
+
+/*
+.leads{
+  position: relative;
+}*/
+
+.leads p{
+  position: relative;
+  text-align: center;
+  display: none;
+}

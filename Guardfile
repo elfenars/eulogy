@@ -9,7 +9,3 @@ guard 'livereload' do
   watch(%r{public/.*/.+\.(css|js|html)})
   watch(%r{.+\.(rb|ru)})
 end
-
-guard 'uglify', :destination_file => "public/js/scripts.min.js" do
-  watch (%r{public/js/scripts.js})
-end
