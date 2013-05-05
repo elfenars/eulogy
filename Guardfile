@@ -10,6 +10,6 @@ guard 'livereload' do
   watch(%r{.+\.(rb|ru)})
 end
 
-guard 'uglify', :input => 'public/js/scripts.js', :output => 'public/js/scripts.min.js' do
-  watch 'public/js/scripts.js'
+guard 'uglify', :destination_file => "public/js/scripts.min.js" do
+  watch (%r{public/js/scripts.js})
 end
