@@ -19,3 +19,10 @@ body{
   *display: inline;
   float: none;
 }
+
+/* Leads
+------------------------------------------------*/
+
+.lead{
+  margin-bottom: 0;
+}
