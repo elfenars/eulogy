@@ -6,7 +6,8 @@ var randomStuff =
     "I code for a living :D.",
     "Sometimes i see real life in code, just like in The Matrix.",
     "Did you know coders are the best lovers?<br> ...and i'm one, so... love me.",
-    "I like to think of myself as a Hi-Tech Hippie."
+    "I like to think of myself as a Hi-Tech Hippie.",
+    "If you want to see my full CV, check my LinkedIn. "
   ];
 
 function changeLead(){
