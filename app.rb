@@ -3,10 +3,8 @@ require 'sinatra/base'
 class App < Sinatra::Base
   get '/' do
     @rand_tagline = rand_tagline
-    haml :index, layout: true, local: @rand_tagline
+    haml :"index/index", layout: true, local: @rand_tagline
   end
-
-
 
   private
     def rand_tagline
