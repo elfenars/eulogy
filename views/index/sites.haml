@@ -1,16 +1,41 @@
-%h3.text-right ...and see some of the sites i've done.
-%h6.text-right (besides this one)
+%h3.title.text-right ...and see some of the sites i've done.
+%h6.besides.text-right (besides this one)
 
-.row.thumbs
-  .span6
-    .ul.thumbnails
-      %li.abastc
-        %a{ href: "http://www.abastc.cl", target: "_blank" }
-          %img{ src: "img/500x400.gif", class: "img-polaroid", alt: "AbasTC" }
+#sites-carousel.carousel.slide.img-polaroid
+  / INDICATORS
+  %ol.carousel-indicators
+    %li{ :"data-target" => "#sites-carousel", :"data-slide-to" => "0", class: "active"}
+    %li{ :"data-target" => "#sites-carousel", :"data-slide-to" => "1" }
 
+  / ITEMS
+  .carousel-inner
+    .active.item
+      %a{ href: "http://www.abastc.cl", target: "_blank"}
+        %img{ src: "img/abastc.png", :alt => "Abastc", width: "1300", height: "700" }
+      .carousel-caption
+        %h4
+          %a{  href: "http://www.abastc.cl" } Abastc
+        %p
+          December 2012.
+          %br
+          Wordpress + Custom Theme + Logo Design
 
-  .span6
-    .ul.thumbnails
-      %li.santafe
-        %a{ href: "http://www.gruposantafe.cl", target: "_blank" }
-          %img{ src: "img/500x400.gif", class: "img-polaroid", alt: "Inmobiliaria Santafe" }
+    .item
+      %a{ href: "http://www.gruposantafe.cl", target: "_blank"}
+        %img{ src: "img/santafe.png", :alt => "Santafe", width: "1300", height: "700" }
+      .carousel-caption
+        %h4
+          %a{  href: "http://www.gruposantafe.cl" } Santafe
+        %p
+          Feb - Apr 2013
+          %br
+          Wordpress + Custom Theme + Bootstrap
+
+  / CONTROLS
+  %a{ href: "#sites-carousel", class: "carousel-control left", :"data-slide" => "prev" } &lsaquo;
+  %a{ href: "#sites-carousel", class: "carousel-control right", :"data-slide" => "next" } &rsaquo;
+
+:javascript
+  $('.carousel').carousel({
+    interval: 5000
+  });

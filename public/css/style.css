@@ -30,6 +30,6 @@ body{
 /* Sites
 ------------------------------------------------*/
 
-.sites h3{ margin-bottom: 0; line-height: 0.9; }
-.sites h6{ margin: 0 0 25px 0; line-height: 0.9; }
+.sites h3.title{ margin-bottom: 0; line-height: 0.9; }
+.sites h6.besides{ margin: 0 0 25px 0; line-height: 0.9; }
 
