@@ -3,6 +3,7 @@
 
 body{
   border-top: 10px solid #CC2525;
+  border-bottom: 10px solid #CC2525;
 }
 
 /* Header
@@ -26,6 +27,12 @@ body{
 .lead{
   margin-bottom: 0;
 }
+
+/* Past Work
+------------------------------------------------*/
+
+.tech-stuff .progress{ height: 10px; margin-bottom: 10px;}
+.tech-stuff p{ margin-bottom: 0;}
 
 /* Past Work
 ------------------------------------------------*/

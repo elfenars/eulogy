@@ -7,14 +7,17 @@ var randomStuff =
     "Sometimes i see real life in code, just like in The Matrix.",
     "Did you know coders are the best lovers?<br> ...and i'm one, so... love me.",
     "I like to think of myself as a Hi-Tech Hippie.",
-    "If you want to see my full CV, check my LinkedIn. "
+    "If you want to see my full CV, check my LinkedIn.",
+    "People also call me Red, cause i'm a Ginger<br> (if you didn't notice by the pic).",
+    "Gingers do have souls, at least i think so...",
+    "pssssst!... this web is responsive also, try it on your phone!."
   ];
 
 function changeLead(){
   $target.fadeOut(function() {
-    // var str = randomStuff[Math.floor((Math.random()*randomStuff.length)+1)];
     lastIndex = dnr(lastIndex, randomStuff.length);
     var str = randomStuff[lastIndex];
+    // var str = randomStuff[8];
     $target.html(str);
     $target.fadeIn();
   });

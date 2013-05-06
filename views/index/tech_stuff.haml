@@ -1,34 +1,51 @@
 %h3 You'd probably want to know i know this...
-.first.row
-  .langs.span3
-    %h5 Code Stuff:
-    %ul
-      %li Git & Github
-      %li
-        Ruby
-        %ul
-          %li Pure as it comes
-          %li on Rails
-          %li Sinatra
-      %li
-        PHP
-        %ul
-          %li CakePHP
-      %li jQuery
-      %li Javascript
 
+.well.well-mini
+  .first.row
+    .langs.span2
+      %h5 Code Stuff:
 
-  .servers.span3
-    %h5 Systems & Servers Stuff:
-    %ul
-      %li
-        Linux
-        %ul
-          %li Debian
-          %li Centos
-          %li Ubuntu
-          %li RedHat
-      %li Nginx
-      %li Apache
-      %li MySQL
-      %li Cisco CCNA (I - IV)
+      %p Git & Github
+      .progress.progress-sucess
+        .bar{ style: "width: 100%;" }
+
+      %p Ruby (As it comes, Sinatra & Rails)
+      .progress.progress-danger
+        .bar{ style: "width: 90%;" }
+
+      %p PHP (As it comes, CakePHP)
+      .progress.progress-warning
+        .bar{ style: "width: 50%;" }
+
+      %p jQuery
+      .progress.progress-success
+        .bar{ style: "width: 80%;" }
+
+      %p JavaScript
+      .progress.progress-info
+        .bar{ style: "width: 60%;" }
+      %br
+
+    .servers.span2.offset1
+      %h5 Systems & Servers Stuff:
+
+      %p Linux (Debian, Ubuntu, CentOS, RedHat)
+      .progress.progress-danger
+        .bar{ style: "width: 100%;" }
+
+      %p Nginx
+      .progress.progress-warning
+        .bar{ style: "width: 100%;" }
+
+      %p Cisco CCNA (I - IV)
+      .progress.progress-success
+        .bar{ style: "width: 100%;" }
+
+      %p Apache
+      .progress.progress-info
+        .bar{ style: "width: 80%;" }
+
+      %p MySQL
+      .progress.progress-info
+        .bar{ style: "width: 80%;" }
+
