@@ -27,9 +27,17 @@ body{
   margin-bottom: 0;
 }
 
+/* Past Work
+------------------------------------------------*/
+
+.past-work h4.work-name{ margin-bottom: 0;}
+.past-work h6.work-description{ margin: 0; line-height: 0.9;}
+.past-work h6.work-time{ margin: 0;}
+
 /* Sites
 ------------------------------------------------*/
 
 .sites h3.title{ margin-bottom: 0; line-height: 0.9; }
 .sites h6.besides{ margin: 0 0 25px 0; line-height: 0.9; }
+
 
