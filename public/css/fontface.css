@@ -1,21 +1,21 @@
 @font-face {
     font-family: 'Helvetica';
-    src: url('fonts/helvetica-webfont.eot');
-    src: url('fonts/helvetica-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/helvetica-webfont.woff') format('woff'),
-         url('fonts/helvetica-webfont.ttf') format('truetype'),
-         url('fonts/helvetica-webfont.svg#helveticaregular') format('svg');
+    src: url('/fonts/helvetica-webfont.eot');
+    src: url('/fonts/helvetica-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/helvetica-webfont.woff') format('woff'),
+         url('/fonts/helvetica-webfont.ttf') format('truetype'),
+         url('/fonts/helvetica-webfont.svg#helveticaregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Helvetica Neue';
-    src: url('fonts/helveticaneue-roman-webfont.eot');
-    src: url('fonts/helveticaneue-roman-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/helveticaneue-roman-webfont.woff') format('woff'),
-         url('fonts/helveticaneue-roman-webfont.ttf') format('truetype'),
-         url('fonts/helveticaneue-roman-webfont.svg#helvetica_neueregular') format('svg');
+    src: url('/fonts/helveticaneue-roman-webfont.eot');
+    src: url('/fonts/helveticaneue-roman-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/helveticaneue-roman-webfont.woff') format('woff'),
+         url('/fonts/helveticaneue-roman-webfont.ttf') format('truetype'),
+         url('/fonts/helveticaneue-roman-webfont.svg#helvetica_neueregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
