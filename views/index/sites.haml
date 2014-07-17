@@ -6,6 +6,7 @@
   %ol.carousel-indicators
     %li{ :"data-target" => "#sites-carousel", :"data-slide-to" => "0", class: "active"}
     %li{ :"data-target" => "#sites-carousel", :"data-slide-to" => "1" }
+    %li{ :"data-target" => "#sites-carousel", :"data-slide-to" => "2" }
 
   / ITEMS
   .carousel-inner
@@ -30,6 +31,17 @@
           Feb - Apr 2013
           %br
           Wordpress + Custom Theme + Bootstrap
+
+    .item
+      %a{ href: "http://www.paigoanimation.com", target: "_blank"}
+        %img{ src: "img/paigo.png", :alt => "PaiGo Animation", width: "1300", height: "700" }
+      .carousel-caption
+        %h4
+          %a{  href: "http://www.paigoanimation.com" } PaiGo
+        %p
+          Jul 2014
+          %br
+          Bootstrap + Sinatra
 
   / CONTROLS
   %a{ href: "#sites-carousel", class: "carousel-control left", :"data-slide" => "prev" } &lsaquo;
