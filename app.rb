@@ -24,10 +24,14 @@ class App < Sinatra::Base
                     "Tea Drinker",
                     "Cat Lover",
                     "Full Time Geek",
-                    "Starcraft Player",
+                    "Starcraft 2 Player",
+                    "Heroes of the Storm Player",
+                    "ESL Admin",
                     "Diablo III Player",
                     "Outdoors Lover",
-                    "Hobbit Footed"
+                    "Hobbit Footed",
+                    "Bare footed walker",
+                    "Rubik Solver"
                  ]
 
       taglines.sample
