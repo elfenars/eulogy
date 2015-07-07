@@ -60,6 +60,18 @@ body {
   float: none;
 }
 
+/* Social
+------------------------------------------------*/
+.social.row {
+  margin-top: 20px;
+}
+
+.social a {
+  color: #333;
+  margin-right: 5px;
+}
+
+
 /* Leads
 ------------------------------------------------*/
 
