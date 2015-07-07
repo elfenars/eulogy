@@ -1,6 +1,10 @@
 .image.row
-  .pagination-centered
-    %img{ src: "img/squared.png", height: "100", width: "100", :alt => "me", class: "img-circle img-polaroid" }
+  .flip-container{ ontouchstart: "this.classList.toggle('hover');"}
+    .flipper
+      .front
+        %img{ src: "img/squared_simpson.png", height: "100", width: "100", :alt => "me", class: "img-circle img-polaroid" }
+      .back
+        %img{ src: "img/squared_coding.png", height: "100", width: "100", :alt => "me", class: "img-circle img-polaroid" }
 
 .info.row
   .name
