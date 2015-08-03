@@ -26,12 +26,14 @@ class App < Sinatra::Base
                     "Full Time Geek",
                     "Starcraft 2 Player",
                     "Heroes of the Storm Player",
-                    "ESL Admin",
                     "Diablo III Player",
                     "Outdoors Lover",
                     "Hobbit Footed",
                     "Bare footed walker",
-                    "Rubik Solver"
+                    "Rubik Solver",
+                    "Stickers collector",
+                    "Club Mate Drinker",
+                    "Full Time Ginger"
                  ]
 
       taglines.sample
