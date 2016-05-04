@@ -2,15 +2,12 @@ var $target;
 var lastIndex = 0;
 var randomStuff =
   [
-    "I love what I do and I get paid to do it :D",
-    "I code for a living :D",
-    "Sometimes I see real life in code, just like in The Matrix",
-    "Did you know coders are the best lovers?<br> ... and I'm one, so... love me",
-    "I like to think of myself as a Hi-Tech Hippie",
+    "Work is not only what you get paid to do<br> ... but the money really helps to continue doing it",
+    "Did you know coders are the best lovers?<br> ... maybe not, but it rhymes",
+    "I like to think of myself as a Hi-Tech nature lover",
     "If you want to see my full CV, check my LinkedIn",
     "People also call me Red, cause I'm a Ginger<br> (if you didn't notice by the pic)",
-    "Gingers do have souls, at least I think so...",
-    "pssssst!... this web is responsive also, try it on your phone!"
+    "Gingers DO have souls... true story"
   ];
 
 function changeLead(){
